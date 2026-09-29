@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 14px;
+            padding: 20px;
+            flex-wrap: wrap;
+            background-color: #f5f7fa;
+        }
+
+        .box {
+            width: 200px;
+            height: 80px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+
+        .html {
+            background-color: #dbeafe;
+        }
+
+        .css {
+            background-color: #dcfce7;
+        }
+
+        .javascript {
+            background-color: #fef3c7;
+        }
+
+        .flexbox {
+            background-color: #fce7f3;
+        }
+
+        .grid {
+            background-color: #ede9fe;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="box html">HTML</div>
+
+        <div class="box css">CSS</div>
+
+        <div class="box javascript">JavaScript</div>
+
+        <div class="box flexbox">Flexbox</div>
+
+        <div class="box grid">Grid</div>
+
+    </div>
+
+</body>
+</html>
